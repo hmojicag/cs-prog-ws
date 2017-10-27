@@ -7,4 +7,6 @@ dist: trusty
 script:
  - dotnet restore
  - dotnet build
- - dotnet test
+ #- dotnet test ./Tests/Tests.csproj
+ # Uncomment next line for testing Ex1
+ - dotnet test ./Tests/Tests.csproj --filter "FullyQualifiedName~Tests.Ex1Tests"
