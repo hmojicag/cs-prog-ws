@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hmojica/repos-haza/cs-prog-ws/Ex1/Ex1/Ex1.csproj",
+      "projectUniqueName": "/Users/hmojica/repos-haza/cs-prog-ws/Ex1/Ex1.csproj",
       "projectName": "Ex1",
-      "projectPath": "/Users/hmojica/repos-haza/cs-prog-ws/Ex1/Ex1/Ex1.csproj",
+      "projectPath": "/Users/hmojica/repos-haza/cs-prog-ws/Ex1/Ex1.csproj",
       "packagesPath": "/Users/hmojica/.nuget/packages/",
-      "outputPath": "/Users/hmojica/repos-haza/cs-prog-ws/Ex1/Ex1/obj/",
+      "outputPath": "/Users/hmojica/repos-haza/cs-prog-ws/Ex1/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
