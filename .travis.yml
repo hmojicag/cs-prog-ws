@@ -4,9 +4,6 @@ language: csharp
 mono: none
 dotnet: 2.0.0
 dist: trusty
-install:
-  - nuget restore cs-prog-ws.sln
-  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
  - dotnet restore
  - dotnet build
