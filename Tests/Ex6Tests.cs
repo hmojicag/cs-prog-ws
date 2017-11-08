@@ -7,7 +7,7 @@ namespace Tests
     public class Ex6Tests
     {
         [Fact]
-        public void TestLargerNumber() {
+        public void TestCalculator() {
             if (!Ex6.Program.ENABLED) {
                 return;
             }

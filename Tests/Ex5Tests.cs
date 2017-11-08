@@ -7,7 +7,7 @@ namespace Tests
     public class Ex5Tests
     {
         [Fact]
-        public void TestLargerNumber() {
+        public void TestWhiteSpaces() {
             if (!Ex5.Program.ENABLED) {
                 return;
             }
