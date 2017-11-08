@@ -1,5 +1,5 @@
 ﻿/**
-    Write a program that given 3 numbers it returns the larger.
+    Write a program that given 3 numbers it returns the largest.
     Method signature:     largerNumber(int a, int b, int c)
     Return value:         int
     Access modifier:      public static

@@ -12,7 +12,7 @@ namespace Ex2
 {
     public class Program
     {
-        public static bool ENABLED = false;
+        public static bool ENABLED = true;
 
         static void Main(string[] args)
         {

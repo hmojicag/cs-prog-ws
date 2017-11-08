@@ -11,7 +11,7 @@ namespace Tests
             if (!Ex3.Program.ENABLED) {
                 return;
             }
-            Console.WriteLine("Testing Ex1");
+            Console.WriteLine("Testing Ex3");
 
             double area = Ex3.Program.triangleArea(1.0,1.0,1.0);
             Assert.True(area == 1.5,
