@@ -15,37 +15,37 @@ namespace Tests
 
             int larger = Ex4.Program.largerNumber(1,2,3);
             Assert.True(larger == 3, 
-                "Expected larger number: 3\n" + 
+                "Expected the largest number to be: 3\n" + 
                 "Test Data: (1,2,3)\n" +
                 "Your answer was: " +  larger);
 
             larger = Ex4.Program.largerNumber(-10,2,0);
             Assert.True(larger == 2, 
-                "Expected larger number: 2\n" + 
+                "Expected the largest number to be: 2\n" + 
                 "Test Data: (-10,2,0)\n" +
                 "Your answer was: " +  larger);
 
             larger = Ex4.Program.largerNumber(100,100,100);
             Assert.True(larger == 100, 
-                "Expected larger number: 100\n" + 
+                "Expected the largest number to be: 100\n" + 
                 "Test Data: (100,100,100)\n" +
                 "Your answer was: " +  larger);
 
             larger = Ex4.Program.largerNumber(-100,-100,-100);
             Assert.True(larger == -100, 
-                "Expected larger number: -100\n" + 
+                "Expected the largest number to be: -100\n" + 
                 "Test Data: (-100,-100,-100)\n" +
                 "Your answer was: " +  larger);
 
             larger = Ex4.Program.largerNumber(-100,100,0);
             Assert.True(larger == 100, 
-                "Expected larger number: 100\n" + 
+                "Expected the largest number to be: 100\n" + 
                 "Test Data: (-100,100,0)\n" +
                 "Your answer was: " +  larger);
 
             larger = Ex4.Program.largerNumber(int.MaxValue,int.MinValue,0);
             Assert.True(larger == int.MaxValue, 
-                "Expected larger number: int.MaxValue\n" + 
+                "Expected the largest number to be: int.MaxValue\n" + 
                 "Test Data: (int.MaxValue,int.MinValue,0)\n" +
                 "Your answer was: " +  larger);
         }

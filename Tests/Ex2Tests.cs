@@ -14,16 +14,21 @@ namespace Tests
             Console.WriteLine("Testing Ex2");
 
             string greeting = Ex2.Program.GreetingsUser("Haza");
-            Assert.True(greeting.Equals("Greetings Haza"),
-                "For User Haza the greeting was: " + greeting);
+            string expected = "Greetings Haza";
+            Assert.True(greeting.Equals(expected),
+                "For User 'Haza' the greeting was: " + greeting +
+                "\nExpected is: " + expected);
             
             greeting = Ex2.Program.GreetingsUser("");
-            Assert.True(greeting.Equals("Greetings "),
-                "For User 'Empty String' the greeting was: " + greeting);
+            expected = "Greetings ";
+            Assert.True(greeting.Equals(expected),
+                "For User {An Empty String} the greeting was: " + greeting +
+                "\nExpected is: " + expected);
 
             greeting = Ex2.Program.GreetingsUser(null);
             Assert.True(greeting.Equals("Greetings "),
-                "For User 'null' the greeting was: " + greeting);
+                "For User {null} the greeting was: " + greeting +
+                "\nExpected is: " + expected);
         }
     }
 }
