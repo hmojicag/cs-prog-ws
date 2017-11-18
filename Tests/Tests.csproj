@@ -15,5 +15,12 @@
     <ProjectReference Include="..\Ex4\Ex4.csproj" />
     <ProjectReference Include="..\Ex5\Ex5.csproj" />
     <ProjectReference Include="..\Ex6\Ex6.csproj" />
+    <ProjectReference Include="..\Ex7\Ex7.csproj" />
+    <ProjectReference Include="..\Ex8\Ex8.csproj" />
+    <ProjectReference Include="..\Ex9\Ex9.csproj" />
+    <ProjectReference Include="..\Ex10\Ex10.csproj" />
+    <ProjectReference Include="..\Ex11\Ex11.csproj" />
+    <ProjectReference Include="..\Ex12\Ex12.csproj" />
+    <ProjectReference Include="..\Ex13\Ex13.csproj" />
   </ItemGroup>
 </Project>

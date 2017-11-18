@@ -10,7 +10,7 @@
     And so forth...
     
     Method signature:     Calculate(double number1, double number2, string op)
-    Return value:         doible
+    Return value:         double
     Access modifier:      public static
  */
 
